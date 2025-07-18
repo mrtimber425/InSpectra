@@ -1,20 +1,6 @@
 #!/usr/bin/env python
-"""
-InSpectra Analytics Platform - Unified Cross-Platform Launcher
-===============================================================
 
-A comprehensive, single-file launcher that automatically adapts to the user's
-environment. It attempts to start a user-friendly GUI, but gracefully falls
-back to a console-based interface if a graphical environment is not available.
 
-Features:
-- Automatic GUI or console mode detection.
-- System environment analysis (Platform, Python, Pip, Memory).
-- Dependency checking against 'requirements.txt' and guided installation.
-- Detailed progress tracking and activity logging in the GUI.
-- One-click application launch.
-- Cross-platform compatibility (Windows, macOS, Linux).
-"""
 
 import sys
 import os
